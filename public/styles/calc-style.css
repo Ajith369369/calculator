@@ -1,0 +1,41 @@
+body {
+  background-color: white;
+}
+
+input {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 25px;
+}
+
+td,
+tr {
+  border: 1px solid black;
+}
+
+td {
+  text-align: center;
+  padding: 0px;
+  width: 60px;
+  background-color: black;
+}
+
+#calcRow > table > tbody > tr:nth-child(1) > td:nth-child(2),
+#calcRow > table > tbody > tr:nth-child(6) > td:nth-child(2) {
+  background-color: black;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+#calcRow {
+  background-color: white;
+}
+
+table {
+  border: 6px solid black;
+  width: 40%;
+  height: 350px;
+}
