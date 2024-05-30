@@ -13,6 +13,9 @@ function back() {
 function equal() {
   try {
     result.value = eval(result.value);
+    setTimeout(() => {
+      result.value = "";
+    }, 1000);
   } catch (error) {
     console.log(error);
     result.value = "ERROR!";
